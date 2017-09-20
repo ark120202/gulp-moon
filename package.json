@@ -1,7 +1,9 @@
 {
   "name": "gulp-moon",
   "version": "1.0.0",
+  "description": "A gulp plugin used for compiling MoonScript to Lua.",
   "main": "index.js",
+  "repository": "https://github.com/ark120202/gulp-moon.git",
   "author": "ark120202",
   "license": "MIT",
   "dependencies": {
@@ -15,6 +17,5 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-unicorn": "^2.1.2"
-  },
-  "description": "A gulp plugin used for compiling MoonScript to Lua."
+  }
 }
