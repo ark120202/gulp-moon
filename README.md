@@ -5,9 +5,9 @@ A gulp plugin used for compiling MoonScript to Lua.
 ## Install
 
 ```bash
-yarn add gulp-moon -D
+npm i gulp-moon
 # or
-npm i gulp-moon -D
+yarn add gulp-moon
 ```
 
 Note: This plugin requires `lua` to be in your PATH and `moonscript` be requirable out of it.
