@@ -10,14 +10,10 @@ function escapeLuaString(content) {
     .replace(/\\/g, '\\\\')
     .replace(/'/g, "\\'")
     .replace(/"/g, '\\"')
-    .replace(/\[/g, '\\[')
-    .replace(/\]/g, '\\]')
     .replace(/\v/g, '\\v')
     .replace(/\t/g, '\\t')
     .replace(/\r/g, '\\r')
     .replace(/\n/g, '\\n')
-    // .replace(/\\b/g, '\\b')
-    // .replace(/\a/g, '\\a')
     .replace(/\f/g, '\\f');
 }
 
