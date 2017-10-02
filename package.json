@@ -1,6 +1,6 @@
 {
   "name": "gulp-moon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gulp plugin used for compiling MoonScript to Lua.",
   "main": "index.js",
   "repository": "https://github.com/ark120202/gulp-moon.git",
